@@ -1,3 +1,4 @@
+namespace: ankita
 replicas: 1
 labels:
   app: bms
