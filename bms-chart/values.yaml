@@ -1,0 +1,11 @@
+replicas: 1
+labels:
+  app: bms
+name: bms-container
+image:
+  repository: kastrov/bms
+  tag: latest
+port: 3000
+service:
+ type: NodePort
+ port: 80
